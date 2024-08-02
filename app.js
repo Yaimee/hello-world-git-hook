@@ -8,6 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 app.post("/", (req, res) => {
     console.log(req.body);
     console.log("Hello World!");
+    console.log("Hello World!");
     res.send("Hello World!");
 });
 
